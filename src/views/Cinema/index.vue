@@ -1,5 +1,5 @@
 <template>
-  <div>hello Cinemafffffcccccccfff</div>
+  <div>hello Cinema</div>
 </template>
 
 <script>
