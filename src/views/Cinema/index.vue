@@ -1,10 +1,20 @@
 <template>
-  <div>hello Cinema</div>
+  <div id="main">
+    <Header title="汪汪影院" />
+    <TabBar />
+  </div>
 </template>
 
 <script>
+import Header from "@/components/Header";
+import TabBar from "@/components/TabBar";
+
 export default {
-  name: "Cinema"
+  name: "Cinema",
+  components: {
+    Header,
+    TabBar
+  }
 };
 </script>
 

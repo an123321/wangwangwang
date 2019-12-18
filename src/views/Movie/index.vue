@@ -1,6 +1,6 @@
 <template>
   <div id="main">
-    <Header />
+    <Header title="汪汪电影" />
     <TabBar />
   </div>
 </template>
