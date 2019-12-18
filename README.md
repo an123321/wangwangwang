@@ -18,40 +18,40 @@ wangwang
 目录结构
 ---
 roncoo-education-web/  <br/>
-├── api/ api接口列表目录<br/>
+├──  api/ api接口列表目录<br/>
 │   ├── method.js      <br/>
 │   ├── main.js        <br/>
-├── assets/ 公用的静态资源目录<br/>
+├──  assets/ 公用的静态资源目录<br/>
 │   ├── CSS/           <br/>
 │   ├── JS<br/>
 │   ├── fonts<br/>
 │   ├── image<br/>
-├── component/ <br/>
+├──  component/ <br/>
 │   ├── 所有的自定义组件<br/>
-├── config/ 配置文件目录<br/>
+├──  config/ 配置文件目录<br/>
 │   ├── conf.js  系统编译配置文件<br/>
 │   ├── index.js  系统全局配置文件<br/>
 │   ├── dev.env.js  开发模式的全局配置<br/>
 │   ├── pro.env.js  生产模式的全局配置<br/>
 │   ├── index.js  测试模式的全局配置<br/>
-├── layouts/<br/>
+├──  layouts/<br/>
 │   ├── 布局目录<br/>
-├── middleware/<br/>
+├──  middleware/<br/>
 │   ├── 中间件目录<br/>
-├── pages/<br/>
+├──  pages/<br/>
 │   ├── 页面目录<br/>
-├── plugins/<br/>
+├──  plugins/<br/>
 │   ├── 所有的第三方或自定义插件的目录<br/>
-├── static/<br/>
+├──  static/<br/>
 │   ├── 静态文件目录<br/>
-├── store/<br/>
+├──  store/<br/>
 │   ├── actions.js<br/>
 │   ├── getters.js<br/>
 │   ├── index.js<br/>
 │   ├── mutations.js<br/>
-├── utils/<br/>
+├──  utils/<br/>
 │   ├── 自定义工具类目录<br/>
-└── next.config.js   nextjs 配置文件 <br/>
+└──  next.config.js   nextjs 配置文件 <br/>
 
 
 ## Project setup
