@@ -1,5 +1,5 @@
 <template>
-  <div>hello Mine</div>
+  <div>hello Minebbbb</div>
 </template>
 
 <script>
