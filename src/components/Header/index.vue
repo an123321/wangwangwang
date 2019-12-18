@@ -1,12 +1,18 @@
 <template>
   <header id="header">
-    <h1>汪汪旺影院</h1>
+    <h1>{{title}}</h1>
   </header>
 </template>
 
 <script>
 export default {
-  name: "Header"
+  name: "Header",
+  props: {
+    title: {
+      type: String,
+      default: "汪汪电影"
+    }
+  }
 };
 </script>
 
