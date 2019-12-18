@@ -1,7 +1,6 @@
 <template>
   <header id="header">
     <h1>汪汪旺影院</h1>
-    
   </header>
 </template>
 
