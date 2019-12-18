@@ -1,6 +1,5 @@
 <template>
   <div id="main">
-  aa
     <Header />
     <TabBar />
   </div>
