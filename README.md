@@ -17,12 +17,12 @@ wangwang
 
 目录结构
 ---
-roncoo-education-web/<br/>
+roncoo-education-web/  <br/>
 ├── api/ api接口列表目录<br/>
-│   ├── method.js<br/>
-│   ├── main.js<br/>
+│   ├── method.js      <br/>
+│   ├── main.js        <br/>
 ├── assets/ 公用的静态资源目录<br/>
-│   ├── CSS/<br/>
+│   ├── CSS/           <br/>
 │   ├── JS<br/>
 │   ├── fonts<br/>
 │   ├── image<br/>
