@@ -13,6 +13,7 @@ const router = new VueRouter({
     movieRouter,
     mineRouter,
     cinemaRouter,
+    // 重定向
     {
       path: '/*',
       redirect: '/movie'
