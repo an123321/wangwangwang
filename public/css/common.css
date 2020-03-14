@@ -6,32 +6,7 @@ html,body{ height:100%;}
 
 #main{ height: 100%; display: flex; flex-direction:column;}
 
-
-
 #content{ flex:1; overflow:auto; margin-bottom: 50px; position: relative; display: flex; flex-direction:column;}
-#content .movie_menu{ width: 100%; height: 45px; border-bottom:1px solid #e6e6e6; display: flex; justify-content:space-between; align-items:center; background:white; z-index:10;}
-.movie_menu .city_name{ margin-left: 20px; height:100%; line-height: 45px;}
-.movie_menu .city_name.active{ color: #ef4238; border-bottom: 2px #ef4238 solid;}
-.movie_menu .hot_swtich{ display: flex; height:100%; line-height: 45px;}
-.movie_menu .hot_item{ font-size: 15px; color:#666; width:80px; text-align:center; margin:0 12px; font-weight:700;}
-.movie_menu .hot_item.active{ color: #ef4238; border-bottom: 2px #ef4238 solid;}
-.movie_menu .search_entry{ margin-right:20px; height:100%; line-height: 45px;}
-.movie_menu .search_entry.active{ color: #ef4238; border-bottom: 2px #ef4238 solid;}
-.movie_menu .search_entry i{  font-size:24px; color:red;}
-
-#content .movie_body{ flex:1; overflow:auto;}
-.movie_body ul{ margin:0 12px; overflow: hidden;}
-.movie_body ul li{ margin-top:12px; display: flex; align-items:center; border-bottom: 1px #e6e6e6 solid; padding-bottom: 10px;}
-.movie_body .pic_show{ width:64px; height: 90px;}
-.movie_body .pic_show img{ width:100%;}
-.movie_body .info_list { margin-left: 10px; flex:1; position: relative;}
-.movie_body .info_list h2{ font-size: 17px; line-height: 24px; width:150px; overflow: hidden; white-space: nowrap; text-overflow:ellipsis;}
-.movie_body .info_list p{ font-size: 13px; color:#666; line-height: 22px; width:200px; overflow: hidden; white-space: nowrap; text-overflow:ellipsis;}
-.movie_body .info_list .grade{ font-weight: 700; color: #faaf00; font-size: 15px;}
-.movie_body .info_list img{ width:50px; position: absolute; right:10px; top: 5px;}
-.movie_body .btn_mall , .movie_body .btn_pre{ width:47px; height:27px; line-height: 28px; text-align: center; background-color: #f03d37; color: #fff; border-radius: 4px; font-size: 12px; cursor: pointer;}
-.movie_body .btn_pre{ background-color: #3c9fe6;}
-
 
 #content .city_body{ margin-top: 45px; display: flex; width:100%; position: absolute; top: 0; bottom: 0;}
 .city_body .city_list{ flex:1; overflow: auto; background: #FFF5F0;}
@@ -55,9 +30,9 @@ html,body{ height:100%;}
 .search_body .search_input_wrapper{ padding: 0 10px; border: 1px solid #e6e6e6; border-radius: 5px; background-color: #fff; display: flex; line-height: 20px;}
 .search_body .search_input_wrapper i{font-size: 16px; padding: 4px 0;}
 .search_body .search_input_wrapper input{ border: none; font-size: 13px; color: #333; padding: 4px 0; outline: none; margin-left: 5px; width:100%;}
-.search_body .search_result{}
+
 .search_body .search_result h3{ font-size: 15px; color: #999; padding: 9px 15px; border-bottom: 1px solid #e6e6e6;}
-.search_body .search_result ul{}
+
 .search_body .search_result li{ border-bottom:1px #c9c9c9 dashed; padding: 10px 15px; box-sizing:border-box; display: flex;}
 .search_body .search_result .img{ width: 60px; float:left; }
 .search_body .search_result .img img{ width: 100%; }
@@ -84,19 +59,6 @@ html,body{ height:100%;}
 .detail_player .swiper-slide img{ width:100%; margin-bottom: 5px;}
 .detail_player .swiper-slide p:nth-of-type(2){ color:#999;}
 
-#content .cinema_menu{ width: 100%; height: 45px; border-bottom:1px solid #e6e6e6; display: flex; justify-content:space-around; align-items:center; background:white;}
-#content .cinema_body{ flex:1; overflow:auto;}
-.cinema_body ul{ padding:20px;}
-.cinema_body li{  border-bottom:1px solid #e6e6e6; margin-bottom: 20px;}
-.cinema_body div{ margin-bottom: 10px;}
-.cinema_body .q{ font-size: 11px; color:#f03d37;}
-.cinema_body .price{ font-size: 18px;}
-.cinema_body .address{ font-size: 13px; color:#666;}
-.cinema_body .address span:nth-of-type(2){ float:right; }
-.cinema_body .card{ display: flex;}
-.cinema_body .card div{ padding: 0 3px; height: 15px; line-height: 15px; border-radius: 2px; color: #f90; border: 1px solid #f90; font-size: 13px; margin-right: 5px;}
-.cinema_body .card div.or{ color: #f90; border: 1px solid #f90;}
-.cinema_body .card div.bl{ color: #589daf; border: 1px solid #589daf;}
 
 #content .login_body{  width:100%;}
 .login_body .login_text{ width:100%; height: 40px; border:none; border-bottom: 1px #ccc solid; margin-bottom: 5px; outline: none; text-indent: 10px;}
