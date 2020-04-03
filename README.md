@@ -51,7 +51,7 @@ roncoo-education-web/  <br/>
 │   ├── mutations.js<br/>
 ├──  utils/<br/>
 │   ├── 自定义工具类目录<br/>
-└──  next.config.js   nextjs 配置文件 <br/>
+└──  Vue.config.js    配置文件 <br/>
 
 
 ## Project setup
